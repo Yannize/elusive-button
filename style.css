@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  width: 200px;
+}
+
+button {
+  border-radius: 7px;
+  background-color: rgb(205, 218, 255);
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+button:active {
+  background-color: rgb(135, 152, 201);
+}
+
+button:focus {
+  outline: none;
+}
+
+.win {
+  background-color: rgb(77, 129, 163);
+  width: 50vw;
+  height: 30vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
